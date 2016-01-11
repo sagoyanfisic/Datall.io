@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Datallio
+        psr4_prefix: Datallio
+        src_path: app
