@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Datallio\Http\Requests;
 use Datallio\Http\Controllers\Controller;
 
-class MailCOntroller extends Controller
+class MailController extends Controller
 {
     /**
      * Display a listing of the resource.

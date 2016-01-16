@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('contacto','DatallioController');
+Route::get('/','DatallioController@index');
+Route::get('yancel','DatallioController@contacto');
